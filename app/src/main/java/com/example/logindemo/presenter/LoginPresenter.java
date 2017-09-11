@@ -5,4 +5,10 @@ package com.example.logindemo.presenter;
  */
 
 public interface LoginPresenter {
+    /**
+     * 输入账号密码登录
+     * @param account
+     * @param pwd
+     */
+    void login(String account, String pwd);
 }
